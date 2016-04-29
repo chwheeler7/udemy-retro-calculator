@@ -251,10 +251,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rY-v3-EVu">
-                                <rect key="frame" x="160" y="558" width="280" height="35"/>
+                                <rect key="frame" x="324" y="558" width="100" height="35"/>
                                 <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="5aG-Qj-g2c"/>
+                                    <constraint firstAttribute="width" constant="100" id="f00-Qd-A1K"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="30"/>
                                 <state key="normal" title="CLEAR">
@@ -269,10 +270,8 @@
                         <constraints>
                             <constraint firstItem="oeU-9T-rDo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="5qr-sn-cem"/>
                             <constraint firstItem="mXv-V0-1Ul" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7jM-l7-Qza"/>
-                            <constraint firstItem="1rY-v3-EVu" firstAttribute="leading" secondItem="oeU-9T-rDo" secondAttribute="leading" id="DPN-fI-1h7"/>
                             <constraint firstItem="oeU-9T-rDo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DYO-EF-mPG"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mXv-V0-1Ul" secondAttribute="bottom" id="ENI-hu-A5f"/>
-                            <constraint firstItem="1rY-v3-EVu" firstAttribute="trailing" secondItem="oeU-9T-rDo" secondAttribute="trailing" id="H2r-JO-kBf"/>
                             <constraint firstItem="fl3-qB-MLH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="HOk-lW-W5f"/>
                             <constraint firstAttribute="trailing" secondItem="mXv-V0-1Ul" secondAttribute="trailing" id="Ht4-lW-K4g"/>
                             <constraint firstItem="mXv-V0-1Ul" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IZl-vS-LvP"/>
@@ -283,6 +282,7 @@
                             <constraint firstItem="u9z-sl-pZq" firstAttribute="centerX" secondItem="oeU-9T-rDo" secondAttribute="centerX" id="XQe-Kp-5YZ"/>
                             <constraint firstAttribute="trailing" secondItem="fl3-qB-MLH" secondAttribute="trailing" id="gbO-0f-OUz"/>
                             <constraint firstItem="PI4-ob-Urx" firstAttribute="top" secondItem="oeU-9T-rDo" secondAttribute="top" constant="22" id="tja-7h-Jkx"/>
+                            <constraint firstItem="1rY-v3-EVu" firstAttribute="trailing" secondItem="u9z-sl-pZq" secondAttribute="trailing" id="viq-pb-RcQ"/>
                         </constraints>
                     </view>
                     <connections>
